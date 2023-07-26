@@ -1,2 +1,0 @@
-# edjingrafix.github.io
-portfolio

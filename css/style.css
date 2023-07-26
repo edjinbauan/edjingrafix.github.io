@@ -246,13 +246,18 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/bg.png") repeat scroll center center / cover;
+  background: url("../images/bg\ main.png") repeat scroll center center / cover;
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+}
+@media screen and (max-width: 992px) {
+  #header {
+    background: url("../images/bg.png") repeat scroll center center / cover;
+  }
 }
 
 #header .header-content {
@@ -262,6 +267,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  z-index: 20;
 }
 
 .header-content h1 {
@@ -468,7 +474,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #contact {
-  background-color: rgb(4, 52, 43);
+  background: url("../images/contactbg.png") repeat scroll center center / cover;
   height: auto;
   width: 100%;
 }
@@ -599,3 +605,43 @@ background-attachment: fixed;
 background-size: cover;
 background-position: center center;
 }
+
+
+.myface {
+  position: absolute;
+  width: 800px;
+  margin-top: -350px;
+
+}
+
+.rightContainer {
+margin: 0;
+
+}
+
+.Download {
+  width: 20px;
+  z-index: 12;
+}
+
+.centerContainer {
+  display: flex;
+}
+
+
+@media screen and (max-width: 992px) {
+  .reflection-container {
+  display: none;
+  }
+}
+
+.main-button {
+  z-index: 99;
+}
+
+
+.DownloadResume {
+  padding-left: 77px;
+  padding-right: 430px;
+}
+

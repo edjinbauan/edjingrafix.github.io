@@ -227,15 +227,31 @@
 	  }
 
   /* 50 */
-  #ps50 .skill__img img {
-	width: 40px;
-  }
+	#ps50 .skill__img img {
+		width: 40px;
+		}
+		
+		#ps50 #progress {
+		background: linear-gradient(rgb(0, 255, 229),rgb(4, 160, 92));
+		transition: all 500ms;
+		}
+		
+		#ps50.active #progress {
+		width: 50%;
+		}
+
   
-  #ps50 #progress {
-	background: linear-gradient(rgb(0, 255, 229),rgb(4, 160, 92));
-	transition: all 500ms;
-  }
-  
-  #ps50.active #progress {
-	width: 70%;
-  }
+     /* 20 */
+	#ps20 .skill__img img {
+			width: 40px;
+			}
+			
+			#ps20 #progress {
+			background: linear-gradient(rgb(0, 255, 229),rgb(4, 160, 92));
+			transition: all 500ms;
+			}
+			
+			#ps20.active #progress {
+			width: 20%;
+			}
+	
